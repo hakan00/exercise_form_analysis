@@ -286,8 +286,8 @@ Most misclassifications were **borderline cases** sitting right at a threshold. 
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/<hakan00>/<exercise_form_analysis>.git
+cd <exercise_form_analysis>
 
 python -m venv venv
 # Windows: venv\Scripts\activate
@@ -447,8 +447,8 @@ The thesis combines a literature review of pose estimation (from DeepPose and Op
 **Hakan Özer**
 MSc in Informatics, Czech University of Life Sciences Prague
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/<your-linkedin>)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:<your-email>)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/<hakan0>)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:<hakan.ozer.95@hotmail.com>)
 
 If you find this project interesting, feel free to ⭐ the repository or reach out.
 
