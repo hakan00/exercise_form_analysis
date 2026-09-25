@@ -11,7 +11,7 @@
 ![Real-time](https://img.shields.io/badge/Real--time-25%E2%80%9330%20FPS%20on%20CPU-success)
 ![Thesis](https://img.shields.io/badge/MSc%20Thesis-CZU%20Prague%202026-blueviolet)
 
-<img src="assets/demo_banner.jpg" alt="Live analysis of a barbell squat and a shoulder press with the heads-up display" width="100%">
+<img src="demo_banner.jpg" alt="Live analysis of a barbell squat and a shoulder press with the heads-up display" width="100%">
 
 <sub>Live sessions: barbell squat (left) and shoulder press in a gym (right). All indicators are green and the form score is 100%.</sub>
 
@@ -78,26 +78,26 @@ Two compound lifts are currently supported: the **Barbell Squat** and the **Shou
 
 | Correct form | Excessive forward lean |
 |:---:|:---:|
-| <img src="assets/squat_correct.jpg" width="420"> | <img src="assets/squat_forward_lean.jpg" width="420"> |
+| <img src="squat_correct.jpg" width="420"> | <img src="squat_forward_lean.jpg" width="420"> |
 | Back 34.1° (< 40°), knees 81°/84°, **score 100%** | Back 49.3° is over the 40° threshold, so the rep loses **25 points** |
 | **Knee valgus (knees caving in)** | **Partial squat** |
-| <img src="assets/squat_knee_valgus.jpg" width="420"> | <img src="assets/squat_partial_depth.jpg" width="420"> |
+| <img src="squat_knee_valgus.jpg" width="420"> | <img src="squat_partial_depth.jpg" width="420"> |
 | Knee gap 0.003 vs. hip gap 0.028 (< 60%), **−20 pts** | Min. knee angle 103° is above the 90° depth gate, so the **rep is not counted** |
 
 ### Shoulder Press
 
 | Correct form | Elbow flare |
 |:---:|:---:|
-| <img src="assets/press_correct.jpg" width="420"> | <img src="assets/press_elbow_flare.jpg" width="420"> |
+| <img src="press_correct.jpg" width="420"> | <img src="press_elbow_flare.jpg" width="420"> |
 | All 4 indicators green, **rep #7 counted at 97%** | Upper-arm angle 128°/140° is outside the 70–110° range |
 | **Bilateral asymmetry** | **Multiple simultaneous errors** |
-| <img src="assets/press_asymmetry.jpg" width="420"> | <img src="assets/press_multiple_errors.jpg" width="420"> |
+| <img src="press_asymmetry.jpg" width="420"> | <img src="press_multiple_errors.jpg" width="420"> |
 | L 172° vs. R 143°, a 29.4° difference (threshold 10°) | Wrist 10.7°, asymmetry 32.7° and arm position all flagged at once, **score 60%** |
 
 <details>
 <summary><b>One more example: elbows too low</b></summary>
 <br>
-<img src="assets/press_low_elbows.jpg" width="640">
+<img src="press_low_elbows.jpg" width="640">
 
 Arm position 67°/70° is below the lower bound of the 70–110° range, so the system shows *"Raise elbows to shoulder level!"*
 </details>
